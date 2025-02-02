@@ -20,6 +20,9 @@ export default function WeatherSearch() {
         <input type="submit" value="Search" />
       </form>
       <h2>{message}</h2>
+      <footer>
+        <a href="https://github.com/cathrine-frontendDev/react-weather-app">Github Repository</a>
+      </footer>
     </div>
   );
 }
